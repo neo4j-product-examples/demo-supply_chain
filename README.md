@@ -1,7 +1,7 @@
 # Pharmaceutical Supply Chain Demo
 This demo models and analyzes pharmaceutical supply chains using Neo4j. It includes a sample dataset, graph schema, and Cypher queries for tracing product flow, analyzing supplier dependencies, performing batch traceability, and identifying risks like bottlenecks and circular logistics.
 
-See https://neo4j.com/developer/demos/supply-chain-pharma/ for instructions for this Demo
+See https://neo4j.com/developer/demos/supply-chain-demo/ for instructions for this Demo
 
 ## Download .backup file for importing data 
 
