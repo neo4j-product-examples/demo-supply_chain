@@ -1,0 +1,189 @@
+name,description,query,id,parentId,isFolder
+*Understanding Pharma Supply Chain Model,,call db.schema.visualization,0,1,false
+"* Supply Chain (for a given Brand, Market)",,"MATCH p = (dist:Distributor WHERE dist.location = ""Western Europe Distributor"" AND dist.market = ""EU"") 
+    <-[:DISTRIBUTED_BY]-(prod:Product WHERE prod.globalBrand = ""Calciiarottecarin"" 
+                    AND prod.strength = ""50mg"" 
+                    AND prod.form = ""Caplet""
+                    AND prod.generation = ""g2"") 
+  <-[pf:PRODUCT_FLOW*]-(:RM)<-[:SUPPLIES_RM]-(:Suppliers)
+   
+RETURN p;
+
+",2,1,false
+* Dependency Chain: Suppliers->Products->Distributors,,"// prod.productSKU = '7e882292-ae98-45eb-8119-596b5d8b73e1' 
+MATCH path = (sup:Suppliers)-[:SUPPLIES_RM]->(rm:RM)-[:PRODUCT_FLOW* ]->(prod:Product)
+               -[:DISTRIBUTED_BY]->(dist:Distributor)
+WHERE prod.productSKU = '7e882292-ae98-45eb-8119-596b5d8b73e1' 
+RETURN nodes(path) AS nodes, relationships(path) AS relationships;",3,1,false
+"* Dependency Chain given a Supplier ",,"
+// Find dependency chain from Suppliers -> RM -> API -> Finished Goods-> Distributor for a given Supplier 
+MATCH path = (sup:Suppliers)-[:SUPPLIES_RM]->(rm:RM)-[:PRODUCT_FLOW*]->(fg:DIST)-[:DISTRIBUTED_BY]->(dist:Distributor)
+where sup.companyName = 'Palmetto Pharmaceuticals'
+
+RETURN path;
+",4,1,false
+* (Bottleneck) Find RMs with limited Supplier:,,"// Find materials with limited supplier redundancy:
+MATCH (rm:RM)<-[:SUPPLIES_RM]-(sup:Suppliers)
+WITH rm, COUNT(sup) AS supplierCount
+WHERE supplierCount = 1
+RETURN rm.productSKU AS rawMaterial_SKU, 
+       rm.globalBrand AS Raw_Material, rm.location AS Location,
+       supplierCount as SupplierRisk
+ORDER BY supplierCount",5,1,false
+* (Bottleneck)APIs that impact multiple Drug Products:,,"// APIs used in multiple Drug Products may create a scarcity bottleneck
+// API = Active Pharmaceutical Ingredient 
+MATCH (api:API)-[:PRODUCT_FLOW]->(dp:DP)
+WITH api, COUNT(dp) AS productCount
+WHERE productCount > 4  // Arbitrary threshold for major dependency
+RETURN api.productSKU AS apiSKU, 
+       api.globalBrand AS apiName, 
+       productCount
+ORDER BY productCount DESC",6,1,false
+* High Dependecy Risk with just 1 supplier,,"// 1. Find APIs used in multiple Drug Products (scarcity risk)
+// 2. Check how many suppliers provide each API = Active Pharmaceutical Ingredient
+// 3. Flag APIs that have only one supplier (high dependency risk)
+
+MATCH (sup:Suppliers)-[:SUPPLIES_RM]->(rm:RM)-[:PRODUCT_FLOW]->(api:API)-[:PRODUCT_FLOW]->(dp:DP)
+WITH api, COUNT(dp) AS productCount, COLLECT(DISTINCT dp) AS dpList, COUNT(DISTINCT sup) AS supplierCount, COLLECT(DISTINCT sup.companyName) AS supplierList
+WHERE productCount > 4  // Arbitrary threshold for major dependency
+RETURN api.productSKU AS apiSKU, 
+       api.globalBrand AS apiName, 
+       productCount, 
+       supplierCount, 
+       supplierList,
+       CASE 
+           WHEN supplierCount = 1 THEN '⚠️ Single Supplier Bottleneck!!** '
+           ELSE 'Multiple Suppliers Available'
+       END AS SupplierRisk
+ORDER BY productCount DESC;",7,1,false
+"* (ShorestPath) From product to RM, with demand and distributor details.",,"MATCH (d:Distributor)<-[db:DISTRIBUTED_BY]-(prod:Product)
+WHERE prod.productSKU = '9a6b431f-3a38-4b45-9451-fbf39b2e2fd0'
+
+MATCH (api)<-[pf2:PRODUCT_FLOW]-(rm:RM)
+WHERE pf2.globalBrand = prod.globalBrand
+  AND pf2.strength = prod.strength
+  AND pf2.form = prod.form
+  AND pf2.generation = prod.generation
+
+WITH d, db.demandQty AS demandQty, db, prod, COLLECT(DISTINCT rm) AS RMList
+UNWIND RMList AS curRM
+
+MATCH p = shortestPath((prod)<-[pf1:PRODUCT_FLOW*]-(curRM))
+return p, db, d",8,1,false
+* (Demand) Raw Materials Demand Back Pressure,,"// Determine the raw material quantity required to fulfill demand at the distributor level, considering the entire supply chain (from raw materials → production → distribution). It also identifies suppliers of these raw materials and how the demand flows backward through the supply network
+// * Designed to analyze Raw Materials Demand Back Pressure, which essentially tracks how demand at the distribution level affects raw material needs upstream in the supply chain
+
+
+MATCH (d:Distributor)<-[db:DISTRIBUTED_BY]-(prod:Product)
+WHERE prod.productSKU = '9a6b431f-3a38-4b45-9451-fbf39b2e2fd0'
+
+MATCH (api)<-[pf2:PRODUCT_FLOW]-(rm:RM)
+WHERE pf2.globalBrand = prod.globalBrand
+  AND pf2.strength = prod.strength
+  AND pf2.form = prod.form
+  AND pf2.generation = prod.generation
+
+WITH d, db.demandQty AS demandQty, db, prod, COLLECT(DISTINCT rm) AS RMList
+UNWIND RMList AS curRM
+
+MATCH p = shortestPath((prod)<-[pf1:PRODUCT_FLOW*]-(curRM))
+MATCH p3 = (myProd:Product)<-[pf:PRODUCT_FLOW]-(curRM)<-[:SUPPLIES_RM]-(sup:Suppliers)
+WHERE pf.globalBrand = prod.globalBrand
+  AND pf.strength = prod.strength
+  AND pf.form = prod.form
+  AND pf.generation = prod.generation
+  AND pf.market = d.market
+
+RETURN sup.companyName AS supplierName,
+       curRM.productSKU AS rawMaterialSKU,
+       apoc.coll.disjunction([""Product""], labels(myProd))[0] AS usedBy,
+       demandQty,
+       REDUCE(rmQty = demandQty, rel IN relationships(p) |
+         TOINTEGER(ROUND(rmQty / (COALESCE(rel.conversionRatio, 1.0)), 0))
+       ) AS rawMaterialQty
+ORDER BY usedBy, supplierName, rawMaterialSKU;",9,1,false
+* Blast Radius from an affected API,,"MATCH (api:API {productSKU: '93337184-9e63-4ff5-9cf9-3e6063e21700'})
+CALL apoc.path.subgraphNodes(api, {
+  relationshipFilter: 'PRODUCT_FLOW>',
+  labelFilter: '-Supplier',
+  maxLevel: 10
+})
+YIELD node
+RETURN DISTINCT node, api",10,1,false
+"* Cross Border & Cyclic Shipments ",,"MATCH (fg:FG:Product WHERE fg.globalBrand = ""Calciiarottecarin"")
+WHERE NOT EXISTS {MATCH (fg)-[pf:PRODUCT_FLOW WHERE pf.globalBrand=""Calciiarottecarin""
+AND pf.generation=""g2""
+AND pf.form=""Caplet""
+AND pf.strength=""50mg""
+ ]->(:FG)}
+WITH fg, count(*) as num
+MATCH p=(fg)-[pf:PRODUCT_FLOW WHERE pf.globalBrand=""Calciiarottecarin""
+AND pf.generation=""g2""
+AND pf.form=fg.form
+AND pf.strength=fg.strength
+ ]->+(dist:DIST:Product WHERE dist.globalBrand=fg.globalBrand
+AND dist.generation=fg.generation
+AND dist.strength=fg.strength
+AND dist.form=fg.form)
+WHERE EXISTS {MATCH (dist)-[:DISTRIBUTED_BY]->(:Distributor)}
+WITH fg, reduce(loc=[],x in nodes(p)[0..-1] | loc+[split(x.location,""/"")[1]]) as countryList
+, reduce(loc=[],x in nodes(p)[0..-1] | loc+[x.location]) as locationList
+, reduce(loc=[],x in nodes(p) | loc+[x.location]) as fullLocList
+WITH fg, countryList, locationList, fullLocList
+, apoc.coll.dropDuplicateNeighbors(apoc.coll.sort(countryList)) as dedupCountryList
+, apoc.coll.dropDuplicateNeighbors(apoc.coll.sort(locationList)) as dedupLocationList
+WHERE (countryList[0]=countryList[-1] AND size(dedupCountryList)>1)
+OR (locationList[0]=locationList[-1] AND size(dedupLocationList)>1)
+WITH fg, fullLocList
+, (CASE 
+WHEN countryList[0]=countryList[-1] AND size(dedupCountryList)>1
+THEN ""Cross Border Shipment""
+WHEN locationList[0]=locationList[-1] AND size(dedupLocationList)>1
+THEN ""Cyclic Movement""
+ELSE null
+END) as costType
+RETURN DISTINCT costType, fg.form as form, fg.generation as gen, fg.strength as strength, fullLocList as LocationPath
+ORDER BY fg.generation, fg.strength",11,1,false
+* Cross Border & Cyclic FG->DIST Shipments,,"MATCH (fg:FG:Product)
+WHERE fg.globalBrand = ""Calciiarottecarin""
+  AND NOT EXISTS {
+    MATCH (fg)-[pf:PRODUCT_FLOW]->(:FG)
+    WHERE pf.globalBrand = ""Calciiarottecarin""
+      AND pf.generation = ""g2""
+  }
+
+WITH fg
+MATCH p = (fg)-[pf:PRODUCT_FLOW*..4]->(dist:DIST:Product)
+WHERE pf[0].globalBrand = ""Calciiarottecarin""
+  AND pf[0].generation = ""g2""
+  AND dist.globalBrand = fg.globalBrand
+  AND dist.generation = fg.generation
+  AND dist.strength = fg.strength
+  AND dist.form = fg.form
+
+  AND EXISTS {
+    MATCH (dist)-[:DISTRIBUTED_BY]->(:Distributor)
+  }
+
+WITH fg,
+     reduce(loc=[], x IN nodes(p)[0..-1] | loc + [split(x.location, ""/"")[1]]) AS countryList,
+     reduce(loc=[], x IN nodes(p)[0..-1] | loc + [x.location]) AS locationList,
+     reduce(loc=[], x IN nodes(p) | loc + [x.location]) AS fullLocList
+
+WITH fg, countryList, locationList, fullLocList,
+     apoc.coll.dropDuplicateNeighbors(apoc.coll.sort(countryList)) AS dedupCountryList,
+     apoc.coll.dropDuplicateNeighbors(apoc.coll.sort(locationList)) AS dedupLocationList
+
+WHERE (countryList[0] = countryList[-1] AND size(dedupCountryList) > 1)
+   OR (locationList[0] = locationList[-1] AND size(dedupLocationList) > 1)
+
+WITH fg, fullLocList,
+     CASE 
+       WHEN countryList[0] = countryList[-1] AND size(dedupCountryList) > 1 THEN ""Cross Border Shipment""
+       WHEN locationList[0] = locationList[-1] AND size(dedupLocationList) > 1 THEN ""Cyclic Movement""
+       ELSE null
+     END AS costType
+
+RETURN DISTINCT costType, fg.form AS form, fg.generation AS gen, fg.strength AS strength, fullLocList AS LocationPath
+ORDER BY fg.generation, fg.strength",12,1,false
+Pharma Supply Chain Queries,,,1,,true

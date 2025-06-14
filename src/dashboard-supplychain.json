@@ -1,0 +1,1173 @@
+{
+  "title": "Supply Chain",
+  "version": "2.4",
+  "settings": {
+    "pagenumber": 3,
+    "editable": false,
+    "fullscreenEnabled": false,
+    "parameters": {
+      "neodash_globalbrand": "Calciiarottecarin",
+      "neodash_market": "EU",
+      "neodash_market_display": "EU",
+      "neodash_globalbrand_display": "Calciiarottecarin",
+      "neodash_materialSKU": [],
+      "neodash_materialSKU_display": [],
+      "neodash_globalBrand": [
+        "Calciiarottecarin"
+      ],
+      "neodash_form": "Caplet",
+      "neodash_generation": "g2",
+      "neodash_strength": "50mg",
+      "neodash_generation_display": "g2",
+      "neodash_globalBrand_display": [
+        "Calciiarottecarin"
+      ],
+      "neodash_form_display": "Caplet",
+      "neodash_strength_display": "50mg",
+      "neodash_distributor": "Western Europe Distributor",
+      "neodash_distributor_display": [
+        "Slovakia Distributor"
+      ],
+      "neodash_productSKU": "5f55d35b-d0b2-4c7f-af59-0c02cd302ba3",
+      "neodash_productSKU_display": [
+        "0b13f42a-d941-474c-87d4-de0f125daa3b",
+        "481f4fec-bb4f-4561-b7c4-29e9f6c7ff69",
+        "8202a4b7-e5e1-4c24-8fb2-ad347e664d7b",
+        "21aededc-c9a5-42a0-b342-79eb9b6978e2",
+        "e66c848d-e408-437c-91ea-b362780d46e0",
+        "22dfb83e-cf43-4c55-9ffe-38cff9a870cc",
+        "80024373-703b-42b8-b190-72eb789db902",
+        "2be5220e-4aec-4973-9f8c-39f40bcb9622",
+        "fa641942-99ed-46c9-ba98-1742479a1c04",
+        "a605e5bd-2ef1-4b0d-a812-2f9680821c01",
+        "9c0731d6-2ff1-4e21-ad45-d6069921fca3"
+      ],
+      "neodash_productForm": "Caplet",
+      "neodash_productForm_display": [
+        "Caplet",
+        "Caplet",
+        "Caplet",
+        "Caplet",
+        "Caplet",
+        "Caplet",
+        "Caplet",
+        "Caplet",
+        "Caplet",
+        "Caplet",
+        "Caplet"
+      ],
+      "neodash_productStrength": "50mg",
+      "neodash_productStrength_display": [
+        "20mg",
+        "20mg",
+        "5mg",
+        "5mg",
+        "10mg",
+        "5mg",
+        "20mg",
+        "10mg",
+        "5mg",
+        "10mg",
+        "20mg"
+      ],
+      "neodash_productMarket": [
+        "EMEA",
+        "EMEA",
+        "EMEA",
+        "EU",
+        "EU",
+        "EU",
+        "EU",
+        "EU",
+        "EMEA",
+        "EMEA",
+        "EU"
+      ],
+      "neodash_productMarket_display": [
+        "EMEA",
+        "EMEA",
+        "EMEA",
+        "EU",
+        "EU",
+        "EU",
+        "EU",
+        "EU",
+        "EMEA",
+        "EMEA",
+        "EU"
+      ],
+      "neodash_globalbrand_globalbrand": "Calciiarottecarin",
+      "neodash_globalbrand_globalbrand_display": "Calciiarottecarin",
+      "neodash_batch_brand": "Calciiarottecarin",
+      "neodash_batch_brand_display": "Calciiarottecarin",
+      "neodash_batch_form": "Caplet",
+      "neodash_batch_form_display": "Caplet",
+      "neodash_batch_strength": "50mg",
+      "neodash_batch_strength_display": "50mg",
+      "neodash_batch_generation": "g3",
+      "neodash_batch_generation_display": "g3",
+      "neodash_start_date": {
+        "year": 2022,
+        "month": 11,
+        "day": 28
+      },
+      "neodash_end_date": {
+        "year": 2022,
+        "month": 12,
+        "day": 31
+      },
+      "neodash_lotNumber": [
+        "2022082702032101",
+        "2022091002032101",
+        "2022090302032101"
+      ],
+      "neodash_lotNumber_display": [
+        "2022082702032101",
+        "2022091002032101",
+        "2022090302032101"
+      ],
+      "neodash_dist_gen": [],
+      "neodash_dist_gen_display": [],
+      "neodash_dist_form": [],
+      "neodash_dist_form_display": [],
+      "neodash_equiplocation": "Sassenheim/NL",
+      "neodash_equipMT": [
+        "BULK",
+        "DIST",
+        "DP",
+        "FG"
+      ],
+      "neodash_equipMT_display": [
+        "BULK",
+        "DIST",
+        "DP",
+        "FG"
+      ],
+      "neodash_startdate2": {
+        "year": 2024,
+        "month": 12,
+        "day": 1
+      },
+      "neodash_enddate2": {
+        "year": 2024,
+        "month": 12,
+        "day": 20
+      },
+      "neodash_lotNumbers": [
+        "2022091002062101",
+        "2022091702062101"
+      ],
+      "neodash_lotNumbers_display": [
+        "2022091002062101",
+        "2022091702062101"
+      ],
+      "neodash_recipe_market": "EMEA",
+      "neodash_recipe_market_display": "EMEA",
+      "neodash_recipe_form": "Caplet",
+      "neodash_recipe_form_display": "Caplet",
+      "neodash_recipe_globalbrand": "Calciiarottecarin",
+      "neodash_recipe_globalbrand_display": "Calciiarottecarin",
+      "neodash_recipe_strength": "20mg",
+      "neodash_recipe_strength_display": "20mg",
+      "neodash_recipe_generation": "g2",
+      "neodash_recipe_generation_display": "g2",
+      "neodash_equipLocation": "Boston MA/US",
+      "neodash_equipment_location": "Boston MA/US",
+      "neodash_equipment_location_display": "Boston MA/US",
+      "neodash_eq_startdate": {
+        "year": 2022,
+        "month": 11,
+        "day": 22
+      },
+      "neodash_eq_enddate": {
+        "year": 2022,
+        "month": 12,
+        "day": 31
+      },
+      "neodash_hrsperday": "8",
+      "neodash_equipId": [
+        {
+          "low": 175975083,
+          "high": 0
+        },
+        {
+          "low": 175971349,
+          "high": 0
+        }
+      ],
+      "neodash_equipId_display": [
+        {
+          "low": 175975083,
+          "high": 0
+        },
+        {
+          "low": 175971349,
+          "high": 0
+        }
+      ],
+      "neodash_equipIdList": [
+        {
+          "low": 175975083,
+          "high": 0
+        },
+        {
+          "low": 175971349,
+          "high": 0
+        }
+      ],
+      "neodash_equipIdList_display": [
+        {
+          "low": 175975083,
+          "high": 0
+        },
+        {
+          "low": 175971349,
+          "high": 0
+        }
+      ],
+      "neodash_curStage": "Bulk packaging",
+      "neodash_skuList": [],
+      "neodash_skuList_display": []
+    },
+    "theme": "light",
+    "resizing": "all"
+  },
+  "pages": [
+    {
+      "title": "Supply Chain ",
+      "reports": [
+        {
+          "id": "e2a328bf-f3b5-4dfa-a051-5730bf02e422",
+          "title": "Global Brand",
+          "query": "MATCH (n:`GlobalBrand`) \nWHERE n.`globalBrand` STARTS WITH $input\nRETURN DISTINCT n.`globalBrand` as value,  n.`globalBrand` as display \nORDER BY display ASC LIMIT 5",
+          "width": 5,
+          "height": 2,
+          "x": 0,
+          "y": 0,
+          "type": "select",
+          "selection": {},
+          "settings": {
+            "actionsRules": [
+              {
+                "condition": "rowCheck",
+                "field": "Global Brand",
+                "value": "Global Brand",
+                "customization": "set variable",
+                "customizationValue": "globalBrand"
+              }
+            ],
+            "compact": true,
+            "columnWidthsType": "Relative (%)",
+            "columnWidths": "100",
+            "type": "Custom Query",
+            "searchType": "STARTS WITH",
+            "entityType": "globalBrand",
+            "parameterName": "neodash_globalbrand"
+          },
+          "schema": []
+        },
+        {
+          "id": "fe61d134-6b4c-40f9-bb5d-d1f6caa6b529",
+          "title": "Market Distributors & Demand",
+          "query": "MATCH (p:Product)-[db:DISTRIBUTED_BY]->(d:Distributor)\nWHERE p.globalBrand=$neodash_globalbrand\n  AND p.form = $neodash_form\n  AND p.materialType='DIST'\n  AND p.strength = $neodash_strength\n  AND p.generation = $neodash_generation\n  AND d.market = $neodash_market\nRETURN d.location as distributor\n   , d.iso3Code as country\n   , sum(db.demandQty) as demandQty\nORDER BY demandQty DESC, country, distributor\n",
+          "width": 9,
+          "height": 6,
+          "x": 14,
+          "y": 2,
+          "type": "table",
+          "selection": {},
+          "settings": {
+            "actionsRules": [
+              {
+                "condition": "Click",
+                "field": "distributor",
+                "value": "distributor",
+                "customization": "set variable",
+                "customizationValue": "distributor"
+              }
+            ],
+            "columnWidths": "[40,20,10,5,25]",
+            "compact": false
+          }
+        },
+        {
+          "id": "128c3961-f030-4268-8d19-0daa6b80aa79",
+          "title": "Supply Chain (Native)",
+          "query": "MATCH p=(dist:Distributor WHERE dist.location = $neodash_distributor AND dist.market = $neodash_market)\n    <-[:DISTRIBUTED_BY]-\n\t(prod:Product WHERE prod.globalBrand = $neodash_globalbrand\n                    AND prod.strength = $neodash_strength\n                    AND prod.form = $neodash_form\n                    AND prod.generation = $neodash_generation\n)\n\t<-[pf:PRODUCT_FLOW WHERE pf.globalBrand = $neodash_globalbrand\n                    AND pf.strength = $neodash_strength\n                    AND pf.form = $neodash_form\n                    AND pf.generation = $neodash_generation\n                    AND pf.market = $neodash_market]-+\n    (:RM)<-[:SUPPLIES_RM]-(:Suppliers)\nRETURN p\n",
+          "width": 23,
+          "height": 7,
+          "x": 0,
+          "y": 18,
+          "type": "graph",
+          "selection": {
+            "Distributor": "location",
+            "Product": "location",
+            "DIST": "location",
+            "FG": "location",
+            "RM": "location",
+            "Suppliers": "companyName",
+            "BULK": "location",
+            "DP": "location",
+            "API": "location"
+          },
+          "settings": {
+            "layout": "tree-left-right",
+            "fullscreenEnabled": true
+          },
+          "schema": [
+            [
+              "Distributor",
+              "market",
+              "location",
+              "iso3Code"
+            ],
+            [
+              "Product",
+              "generation",
+              "sourceDate",
+              "productSKU",
+              "package",
+              "strength",
+              "form",
+              "materialType",
+              "description",
+              "globalBrand",
+              "location",
+              "rmSequence"
+            ],
+            [
+              "DIST",
+              "generation",
+              "productSKU",
+              "package",
+              "form",
+              "strength",
+              "materialType",
+              "description",
+              "globalBrand",
+              "location"
+            ],
+            [
+              "FG",
+              "generation",
+              "productSKU",
+              "package",
+              "form",
+              "strength",
+              "materialType",
+              "description",
+              "globalBrand",
+              "location"
+            ],
+            [
+              "RM",
+              "generation",
+              "productSKU",
+              "package",
+              "form",
+              "strength",
+              "materialType",
+              "description",
+              "globalBrand",
+              "location",
+              "rmSequence"
+            ],
+            [
+              "Suppliers",
+              "countryCode",
+              "companyName",
+              "iso3Code"
+            ],
+            [
+              "BULK",
+              "generation",
+              "productSKU",
+              "package",
+              "form",
+              "strength",
+              "materialType",
+              "description",
+              "globalBrand",
+              "location"
+            ],
+            [
+              "DP",
+              "generation",
+              "productSKU",
+              "package",
+              "form",
+              "strength",
+              "materialType",
+              "description",
+              "globalBrand",
+              "location"
+            ],
+            [
+              "API",
+              "generation",
+              "productSKU",
+              "package",
+              "form",
+              "strength",
+              "materialType",
+              "description",
+              "globalBrand",
+              "location"
+            ]
+          ]
+        },
+        {
+          "id": "fb541fbe-618f-4157-a900-e738ad26eb34",
+          "title": "Form",
+          "query": "MATCH (r:Recipe)\nWHERE r.globalBrand=$neodash_globalbrand\n  AND r.market = $neodash_market\n  AND r.form STARTS WITH upper($input)\nRETURN DISTINCT r.form as value, r.form as display\nORDER BY value \n\n\n\n",
+          "width": 4,
+          "height": 2,
+          "x": 9,
+          "y": 0,
+          "type": "select",
+          "selection": {},
+          "settings": {
+            "actionsRules": [
+              {
+                "condition": "rowCheck",
+                "field": "form",
+                "value": "form",
+                "customization": "set variable",
+                "customizationValue": "form"
+              }
+            ],
+            "compact": true,
+            "type": "Custom Query",
+            "entityType": "form",
+            "parameterName": "neodash_form"
+          },
+          "schema": []
+        },
+        {
+          "id": "69e98faf-efac-4870-90f8-a6ccf6eb8f21",
+          "title": "Market",
+          "query": "MATCH (r:Recipe)\nWHERE r.globalBrand=$neodash_globalbrand\n  AND r.market STARTS WITH upper($input)\nRETURN DISTINCT r.market as value, r.market as display\nORDER BY value \nLIMIT 5\n\n",
+          "width": 4,
+          "height": 2,
+          "x": 5,
+          "y": 0,
+          "type": "select",
+          "selection": {},
+          "settings": {
+            "actionsRules": [
+              {
+                "condition": "rowCheck",
+                "field": "market",
+                "value": "market",
+                "customization": "set variable",
+                "customizationValue": "market"
+              }
+            ],
+            "compact": true,
+            "type": "Custom Query",
+            "entityType": "market",
+            "parameterName": "neodash_market"
+          },
+          "schema": []
+        },
+        {
+          "id": "d583f7c5-97b7-4b45-bf5c-5d2b4218a8ca",
+          "title": "Strength",
+          "query": "MATCH (r:Recipe)\nWHERE r.globalBrand=$neodash_globalbrand\n  AND r.market = $neodash_market\n  AND r.form = $neodash_form\n//  AND r.strength STARTS WITH toString($input)\nRETURN DISTINCT r.strength as value\n    , r.strength as display\nORDER BY size(value), value \n\n\n\n\n\n\n",
+          "width": 4,
+          "height": 2,
+          "x": 13,
+          "y": 0,
+          "type": "select",
+          "selection": {},
+          "settings": {
+            "actionsRules": [
+              {
+                "condition": "rowCheck",
+                "field": "strength",
+                "value": "strength",
+                "customization": "set variable",
+                "customizationValue": "strength"
+              }
+            ],
+            "compact": true,
+            "type": "Custom Query",
+            "entityType": "strength",
+            "parameterName": "neodash_strength"
+          },
+          "schema": []
+        },
+        {
+          "id": "b9d4d216-0ef4-43aa-9358-1b436bdff5e1",
+          "title": "Generation",
+          "query": "MATCH (r:Recipe)\nWHERE r.globalBrand=$neodash_globalbrand\n  AND r.market = $neodash_market\n  AND r.form = $neodash_form\n  AND r.strength = $neodash_strength\nRETURN DISTINCT r.generation as value\n   , r.generation as display\nORDER BY value \n\n\n\n\n\n\n",
+          "width": 4,
+          "height": 2,
+          "x": 17,
+          "y": 0,
+          "type": "select",
+          "selection": {},
+          "settings": {
+            "actionsRules": [
+              {
+                "condition": "rowCheck",
+                "field": "",
+                "value": "generation",
+                "customization": "set variable",
+                "customizationValue": "generation"
+              }
+            ],
+            "compact": true,
+            "columnWidthsType": "Fixed (px)",
+            "type": "Custom Query",
+            "entityType": "generation",
+            "parameterName": "neodash_generation"
+          },
+          "schema": []
+        },
+        {
+          "id": "b73ab4bc-0238-4889-8778-1da0be1cf4f6",
+          "title": "Supply Chain Graph (Bloom Integration)",
+          "query": "http://35.199.35.61:7474/browser/bloom/?search=Supply%20Chain%20$neodash_globalbrand%20%3B%20$neodash_form%20%3B%20$neodash_strength%20%3B%20$neodash_generation%20%3B%20$neodash_market%20%3B%20$neodash_distributor&perspective=Pharma%20Supply%20Chain&run=true\n\n\n",
+          "width": 23,
+          "height": 10,
+          "x": 0,
+          "y": 8,
+          "type": "iframe",
+          "selection": {},
+          "settings": {},
+          "schema": []
+        },
+        {
+          "id": "4f3e71bd-ea46-43a3-9f79-01966006e7cf",
+          "title": "Global Demand",
+          "query": "MATCH (dist:Distributor)<-[db:DISTRIBUTED_BY]-(prod:Product)\nWHERE prod.form = $neodash_form\n  AND prod.generation = $neodash_generation\n  AND prod.strength = $neodash_strength\n  AND prod.globalBrand = $neodash_globalbrand\n//  AND dist.market = $neodash_market\nRETURN dist.iso3Code as countryCode, sum(db.demandQty) as sumDemand\n;\n\n\n\n",
+          "width": 14,
+          "height": 6,
+          "x": 0,
+          "y": 2,
+          "type": "choropleth",
+          "selection": {
+            "index": "countryCode",
+            "value": "sumDemand",
+            "key": "(none)"
+          },
+          "settings": {
+            "colors": "RdYlGn",
+            "fullscreenEnabled": true,
+            "downloadImageEnabled": true,
+            "legend": true
+          },
+          "schema": []
+        },
+        {
+          "id": "54839e70-a794-451e-9513-4525d939ff21",
+          "title": "",
+          "query": "MATCH p=(dist:Distributor WHERE dist.location = $neodash_distributor AND dist.market = $neodash_market)\n    <-[:DISTRIBUTED_BY]-\n\t(prod:Product WHERE prod.globalBrand = $neodash_globalbrand\n                    AND prod.strength = $neodash_strength\n                    AND prod.form = $neodash_form\n                    AND prod.generation = $neodash_generation\n)\n\t<-[pf:PRODUCT_FLOW WHERE pf.globalBrand = $neodash_globalbrand\n                    AND pf.strength = $neodash_strength\n                    AND pf.form = $neodash_form\n                    AND pf.generation = $neodash_generation\n                    AND pf.market = $neodash_market]-+\n    (:RM)<-[:SUPPLIES_RM]-(:Suppliers)\nRETURN $neodash_globalbrand, $neodash_market, $neodash_form, $neodash_strength, $neodash_generation, $neodash_distributor, count(p) as numPaths\n\n\n",
+          "width": 22,
+          "height": 3,
+          "x": 0,
+          "y": 25,
+          "type": "table",
+          "selection": {},
+          "settings": {}
+        }
+      ]
+    },
+    {
+      "title": "RM Demand",
+      "reports": [
+        {
+          "id": "fe4afd12-b763-4003-a848-9bec403f22ad",
+          "title": "Distributed Finished Goods",
+          "query": "MATCH p=(dist:Distributor WHERE dist.market = $neodash_market)<-[db:DISTRIBUTED_BY]-\n\t(prod:Product WHERE prod.globalBrand = $neodash_globalbrand\n                    AND prod.strength = $neodash_strength\n                    AND prod.form = $neodash_form\n                    AND prod.generation = $neodash_generation)\n    <-[pf:PRODUCT_FLOW]-(:Product)\nRETURN prod.globalBrand as globalBrand\n   , dist.market as market\n   , dist.location as distributor\n   , prod.form as form\n   , prod.strength as strength\n   , prod.package as package\n   , db.demandQty as demandQty\n   , prod.productSKU as productSKU\nORDER BY demandQty DESC\n\n\n",
+          "width": 21,
+          "height": 4,
+          "x": 0,
+          "y": 0,
+          "type": "table",
+          "selection": {},
+          "settings": {
+            "actionsRules": [
+              {
+                "condition": "Click",
+                "field": "productSKU",
+                "value": "productSKU",
+                "customization": "set variable",
+                "customizationValue": "productSKU"
+              },
+              {
+                "condition": "Click",
+                "field": "productSKU",
+                "value": "form",
+                "customization": "set variable",
+                "customizationValue": "productForm"
+              },
+              {
+                "condition": "Click",
+                "field": "productSKU",
+                "value": "strength",
+                "customization": "set variable",
+                "customizationValue": "productStrength"
+              }
+            ],
+            "columnWidths": "[20,5,20,5,5,5,10,30]"
+          }
+        },
+        {
+          "id": "02a6c7c6-fe33-4e5a-a24c-c8592b15460c",
+          "title": "Raw Materials Demand Back Pressure",
+          "query": "MATCH (d:Distributor)<-[db:DISTRIBUTED_BY]-\n\t\t(prod:Product WHERE prod.productSKU = $neodash_productSKU)\n\t<-[pf1:PRODUCT_FLOW WHERE pf1.globalBrand=prod.globalBrand \n\t\t\t\t\tAND pf1.strength=prod.strength\n\t\t\t\t\tAND pf1.form=prod.form\n\t\t\t\t\tAND pf1.generation=prod.generation\n\t\t\t\t\tAND pf1.market=d.market\n\t\t]-+(api:API|DP)\n\t<-[pf2:PRODUCT_FLOW WHERE pf2.globalBrand=prod.globalBrand\n\t\t\t\t\tAND pf2.strength=prod.strength\n\t\t\t\t\tAND pf2.form=prod.form\n\t\t\t\t\tAND pf2.generation=prod.generation]-+(rm:RM)\t\t\nWITH d, db.demandQty as demandQty, db, prod, collect(distinct rm) as RMList\nUNWIND RMList as curRM\nMATCH p=shortestPath((prod)<-[pf1:PRODUCT_FLOW* ]-(curRM))\nMATCH p3=(myProd:Product)<-[pf:PRODUCT_FLOW \n\t\t\t\tWHERE pf.globalBrand=prod.globalBrand\n\t\t\t\t\tAND pf.strength=prod.strength\n\t\t\t\t\tAND pf.form=prod.form\n\t\t\t\t\tAND pf.generation=prod.generation\n\t\t\t\t\tAND pf.market=d.market\n\t\t]-(curRM)<-[:SUPPLIES_RM]-(sup:Suppliers)\nRETURN sup.companyName as supplierName\n    , curRM.productSKU as rawMaterialSKU \n\t, apoc.coll.disjunction([\"Product\"],labels(myProd))[0] as usedBy\n\t, demandQty\n \t, reduce(rmQty=demandQty,rel in relationships(p) |\n \t\t\t\t\ttoInteger(round(rmQty/(coalesce(rel.conversionRatio,1.0)),0))\n              ) as rawMaterialQty\nORDER BY usedBy, supplierName, rawMaterialSKU\n",
+          "width": 21,
+          "height": 7,
+          "x": 0,
+          "y": 4,
+          "type": "table",
+          "selection": {},
+          "settings": {
+            "allowDownload": true,
+            "columnWidths": "[30,30,5,15,20]",
+            "compact": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "SC Optimization",
+      "reports": [
+        {
+          "id": "13cbc69f-0c67-45f7-b0dd-971d933ec14f",
+          "title": "Cross Border & Cyclic FG->DIST Shipments",
+          "query": "MATCH (fg:FG:Product WHERE fg.globalBrand = $neodash_globalbrand)\nWHERE NOT EXISTS {MATCH (fg)-[pf:PRODUCT_FLOW WHERE pf.globalBrand=$neodash_globalbrand\n\t\t\t\t\t\t\t\tAND pf.generation=$neodash_generation\n//\t\t\t\t\t\t\t\tAND pf.form=$neodash_form\n//\t\t\t\t\t\t\t\tAND pf.strength=$neodash_strength\n                  ]->(:FG)}\nWITH fg, count(*) as num\nMATCH p=(fg)-[pf:PRODUCT_FLOW WHERE pf.globalBrand=$neodash_globalbrand\n\t\t\t\t\t\t\t\tAND pf.generation=$neodash_generation\n\t\t\t\t\t\t\t\tAND pf.form=fg.form\n\t\t\t\t\t\t\t    AND pf.strength=fg.strength\n              ]->+\n\t\t(dist:DIST:Product WHERE dist.globalBrand=fg.globalBrand\n\t\t\t\t\t\tAND dist.generation=fg.generation\n\t\t\t\t\t\tAND dist.strength=fg.strength\n\t\t\t\t\t\tAND dist.form=fg.form)\nWHERE EXISTS {MATCH (dist)-[:DISTRIBUTED_BY]->(:Distributor)}\nWITH fg, reduce(loc=[],x in nodes(p)[0..-1] | loc+[split(x.location,\"/\")[1]]) as countryList\n   , reduce(loc=[],x in nodes(p)[0..-1] | loc+[x.location]) as locationList\n   , reduce(loc=[],x in nodes(p) | loc+[x.location]) as fullLocList\nWITH fg, countryList, locationList, fullLocList\n   , apoc.coll.dropDuplicateNeighbors(apoc.coll.sort(countryList)) as dedupCountryList\n   , apoc.coll.dropDuplicateNeighbors(apoc.coll.sort(locationList)) as dedupLocationList\nWHERE (countryList[0]=countryList[-1] AND size(dedupCountryList)>1)\nOR (locationList[0]=locationList[-1] AND size(dedupLocationList)>1)\nWITH fg, fullLocList\n    , (CASE \n\t\tWHEN countryList[0]=countryList[-1] AND size(dedupCountryList)>1\n\t\t\t\tTHEN \"Cross Border Shipment\"\n\t\tWHEN locationList[0]=locationList[-1] AND size(dedupLocationList)>1\n\t\t\t\tTHEN \"Cyclic Movement\"\n\t\tELSE null\n\t\tEND) as costType\nRETURN DISTINCT costType, fg.form as form, fg.generation as gen, fg.strength as strength, fullLocList as LocationPath\nORDER BY fg.generation, fg.strength\n\n\n\n",
+          "width": 17,
+          "height": 4,
+          "x": 6,
+          "y": 0,
+          "type": "table",
+          "selection": {},
+          "settings": {
+            "downloadImageEnabled": false,
+            "allowDownload": true,
+            "columnWidths": "[30,5,5,5,55]",
+            "columnWidthsType": "Relative (%)",
+            "compact": true
+          }
+        },
+        {
+          "id": "0f728f1b-102c-4723-8fbb-3a4d77f858dc",
+          "title": "Processing Steps Over Target (>= 2 Days)",
+          "query": "MATCH (b1:Batch WHERE b1.globalBrand=$neodash_globalbrand)-[bf:BATCH_FLOW WHERE bf.market = $neodash_market]->(b2:Batch WHERE b2.globalBrand=b1.globalBrand)\n    , (b1)-[:IS_BATCH_FOR]->(p1:Product)<-[:PRODUCES]-(ps1:ProcessStep)-[:IS_STEP_IN]-(st1:ProcessStage)\n    , (b2)-[:IS_BATCH_FOR]->(p2:Product)<-[:PRODUCES]-(ps2:ProcessStep)-[:IS_STEP_IN]-(st2:ProcessStage)\nWITH b1.location as location1, st1.processStage as stage1, ps1.processStep as step1, b1, ps1, st1\n\t, b2.location as location2, st2.processStage as stage2, ps2.processStep as step2, b2, ps2, st2\n\t, b1.dateProduced as date1, b2.dateProduced as date2, duration.inDays(b1.dateProduced,b2.dateProduced).days as numDays\nWITH location1, stage1, step1, ps1, st1, location2, stage2, step2, ps2, st2\n   , round(avg(numDays),1) as avgNumDays\n   , min(numDays) as minNumDays\n   , max(numDays) as maxNumDays\n   , round(percentileCont(numDays,0.90),1) as percent90\n   , round(percentileCont(numDays,0.75),1) as percent75\n   , round(percentileCont(numDays,0.50),1) as percent50\n   , (CASE \n\t\tWHEN location1<>location2 THEN 3\n\t\tWHEN elementId(st1)=elementId(st2) THEN 1\n\t\tELSE 2\n\t\tEND) as targetNumDays\nWITH location1, stage1, step1, ps1, st1, location2, stage2, step2, ps2, st2\n   , targetNumDays, minNumDays, avgNumDays, maxNumDays, percent50, percent75, percent90\n   , round(avgNumDays - targetNumDays,1) as daysOverTarget\nWHERE daysOverTarget >= 2\nRETURN (CASE \n\t\tWHEN location1<>location2 THEN \"Next Location\"\n\t\tWHEN elementId(st1)=elementId(st2) THEN \"Same Stage\" \n\t\tELSE \"Next Stage\" \n\t\tEND) as Context\n\t, (CASE \n\t\tWHEN location1<>location2 THEN location1 +\" -> \"+ location2\n\t\tELSE location1 \n\t\tEND) as Location\n\t, (CASE \n\t\tWHEN elementId(st1)=elementId(st2) THEN st1.processStage+\":\"+ps1.processStep +\" -> \"+ ps2.processStep\n\t\tELSE st1.processStage+\" -> \"+ st2.processStage\n\t\tEND) as Processing\n\t, targetNumDays as target, daysOverTarget as daysOver, avgNumDays as avgDays\n\t, percent50 as `50%-tile`, percent75 as `75%-tile`, percent90 as `90%-tile`, maxNumDays as maxDays\nORDER BY daysOverTarget desc\n\n\n",
+          "width": 23,
+          "height": 7,
+          "x": 0,
+          "y": 4,
+          "type": "table",
+          "selection": {},
+          "settings": {
+            "columnWidths": "[10,15,20,5,5,5,5,5,5,5]",
+            "allowDownload": true,
+            "compact": true
+          }
+        },
+        {
+          "id": "4748aea4-e65a-4cb2-af2d-d2ea2902823e",
+          "title": "Total X-Border & Cyclic Shipments",
+          "query": "MATCH (fg:FG:Product WHERE fg.globalBrand = $neodash_globalbrand)\nWHERE NOT EXISTS {MATCH (fg)-[pf:PRODUCT_FLOW WHERE pf.globalBrand=$neodash_globalbrand\n\t\t\t\t\t\t\t\tAND pf.generation=$neodash_generation\n\n                  ]->(:FG)}\nWITH fg, count(*) as num\nMATCH p=(fg)-[pf:PRODUCT_FLOW WHERE pf.globalBrand=$neodash_globalbrand\n\t\t\t\t\t\t\t\tAND pf.generation=$neodash_generation\n\t\t\t\t\t\t\t\tAND pf.form=fg.form\n\t\t\t\t\t\t\t    AND pf.strength=fg.strength\n              ]->+\n\t\t(dist:DIST:Product WHERE dist.globalBrand=fg.globalBrand\n\t\t\t\t\t\tAND dist.generation=fg.generation\n\t\t\t\t\t\tAND dist.strength=fg.strength\n\t\t\t\t\t\tAND dist.form=fg.form)\nWHERE EXISTS {MATCH (dist)-[:DISTRIBUTED_BY]->(:Distributor)}\nWITH fg, reduce(loc=[],x in nodes(p)[0..-1] | loc+[split(x.location,\"/\")[1]]) as countryList\n   , reduce(loc=[],x in nodes(p)[0..-1] | loc+[x.location]) as locationList\n   , reduce(loc=[],x in nodes(p) | loc+[x.location]) as fullLocList\nWITH fg, countryList, locationList, fullLocList\n   , apoc.coll.dropDuplicateNeighbors(apoc.coll.sort(countryList)) as dedupCountryList\n   , apoc.coll.dropDuplicateNeighbors(apoc.coll.sort(locationList)) as dedupLocationList\nWHERE (countryList[0]=countryList[-1] AND size(dedupCountryList)>1)\nOR (locationList[0]=locationList[-1] AND size(dedupLocationList)>1)\nWITH fg, fullLocList\n    , (CASE \n\t\tWHEN countryList[0]=countryList[-1] AND size(dedupCountryList)>1\n\t\t\t\tTHEN \"Cross Border Shipment\"\n\t\tWHEN locationList[0]=locationList[-1] AND size(dedupLocationList)>1\n\t\t\t\tTHEN \"Cyclic Movement\"\n\t\tELSE null\n\t\tEND) as costType\nWITH DISTINCT costType, fg.form as form, fg.generation as gen, fg.strength as strength, fullLocList as LocationPath\nRETURN costType, count(*) as numOccurrences\n\n\n",
+          "width": 6,
+          "height": 4,
+          "x": 0,
+          "y": 0,
+          "type": "bar",
+          "selection": {
+            "index": "costType",
+            "value": "numOccurrences",
+            "key": "(none)"
+          },
+          "settings": {
+            "colors": "category10",
+            "barValues": true,
+            "positionLabel": "top",
+            "legend": false,
+            "hideSelections": true,
+            "marginBottom": 100,
+            "marginTop": 20,
+            "labelRotation": 35
+          },
+          "schema": []
+        },
+        {
+          "id": "2634ba8e-c85d-400a-9f82-e93f5d742b88",
+          "title": "Processing Stages Days over Target",
+          "query": "MATCH (b1:Batch WHERE b1.globalBrand = $neodash_globalbrand\n\t\t\t   AND b1.form = $neodash_form\n\t\t\t   AND b1.strength = $neodash_strength\n\t\t\t   AND b1.generation = $neodash_generation)\n\t\t-[bf:BATCH_FLOW WHERE bf.market = $neodash_market\n\t\t\t\t\t   AND bf.globalBrand= $neodash_globalbrand\n\t\t\t\t\t   AND bf.strength = $neodash_strength\n\t\t\t\t\t   AND bf.form = $neodash_form\n\t\t\t\t\t   AND bf.generation = $neodash_generation]->\n\t\t(b2:Batch WHERE b2.globalBrand= $neodash_globalbrand\n\t\t\t       AND b2.form = $neodash_form\n\t\t\t       AND b2.strength = $neodash_strength\n\t\t\t       AND b2.generation = $neodash_generation\n\t\t\t       AND b2.package = b1.package)\n    , (b1)-[:IS_BATCH_FOR]->(p1:Product)<-[:PRODUCES]-(ps1:ProcessStep)-[:IS_STEP_IN]-(st1:ProcessStage)\n    , (b2)-[:IS_BATCH_FOR]->(p2:Product)<-[:PRODUCES]-(ps2:ProcessStep)-[:IS_STEP_IN]-(st2:ProcessStage)\nWITH st1, ps1, st2, ps2, b1, b2, b1.lotNumber as lotNumber\n   , duration.inDays(b1.dateProduced,b2.dateProduced).days as numDays\n   , (CASE \n\t\tWHEN b1.location<>b2.location THEN 3\n\t\tWHEN elementId(st1)=elementId(st2) THEN 1\n\t\tELSE 2\n\t\tEND) as targetNumDays\nWITH st1, ps1, st2, ps2, b1, b2, lotNumber, numDays, targetNumDays, numDays-targetNumDays as daysOverTarget\nWITH lotNumber, st1\n\t, sum(numDays) as sumLotDays\n\t, sum(targetNumDays) as sumLotTarget\n\t, sum(daysOverTarget) as sumLotOverTarget\nWITH st1\n//\t, round(avg(sumLotDays),1) as days_avg\n//\t, round(avg(sumLotTarget),1) as target_avg\n\t, round(avg(sumLotOverTarget),1) as overTarget_avg\n\t, round(percentileCont(sumLotDays,0.75),1) as days_75pct\n\t, round(percentileCont(sumLotOverTarget,0.75),1) as overTarget_75pct\n//RETURN (CASE \n//\t\tWHEN ps1.processStage=ps2.processStage THEN \"(\"+ps1.materialType+\") \"+ps1.processStage+\": \"+ps1.processStep+\" -> \"+ps2.processStep\n//\t\tELSE \"(\"+ps1.materialType+\") \"+ps1.processStage+\" -> \"+ps2.processStage\n//\t\tEND) as processing\n//\t, target_avg, days_avg, days_75pct, overTarget_avg, overTarget_75pct\n//ORDER BY overTarget_75pct DESC\nRETURN st1.processStage as stage, overTarget_avg, days_75pct\nORDER BY st1.stageNum\n;\n",
+          "width": 11,
+          "height": 6,
+          "x": 0,
+          "y": 11,
+          "type": "bar",
+          "selection": {
+            "index": "stage",
+            "value": "overTarget_avg",
+            "key": "(none)"
+          },
+          "settings": {
+            "marginBottom": 90,
+            "labelRotation": 30,
+            "colors": "category10",
+            "barValues": true,
+            "positionLabel": "top",
+            "actionsRules": [
+              {
+                "condition": "Click",
+                "field": "stage",
+                "value": "stage",
+                "customization": "set variable",
+                "customizationValue": "curStage"
+              }
+            ]
+          },
+          "schema": []
+        },
+        {
+          "id": "ac78c861-c4ba-4c62-b9a3-5316fb237b4f",
+          "title": "Processing Steps Days over Target",
+          "query": "MATCH (b1:Batch WHERE b1.globalBrand = $neodash_globalbrand\n\t\t\t   AND b1.form = $neodash_form\n\t\t\t   AND b1.strength = $neodash_strength\n\t\t\t   AND b1.generation = $neodash_generation)\n\t\t-[bf:BATCH_FLOW WHERE bf.market = $neodash_market\n\t\t\t\t\t   AND bf.globalBrand= $neodash_globalbrand\n\t\t\t\t\t   AND bf.strength = $neodash_strength\n\t\t\t\t\t   AND bf.form = $neodash_form\n\t\t\t\t\t   AND bf.generation = $neodash_generation]->\n\t\t(b2:Batch WHERE b2.globalBrand= $neodash_globalbrand\n\t\t\t       AND b2.form = $neodash_form\n\t\t\t       AND b2.strength = $neodash_strength\n\t\t\t       AND b2.generation = $neodash_generation\n\t\t\t       AND b2.package = b1.package)\n    , (b1)-[:IS_BATCH_FOR]->(p1:Product)<-[:PRODUCES]-(ps1:ProcessStep)\n    \t\t-[:IS_STEP_IN]-(st1:ProcessStage WHERE st1.processStage=$neodash_curStage)\n    , (b2)-[:IS_BATCH_FOR]->(p2:Product)<-[:PRODUCES]-(ps2:ProcessStep)\n    \t\t-[:IS_STEP_IN]-(st2:ProcessStage)\nWITH st1, ps1, st2, ps2, b1, b2, b1.lotNumber as lotNumber\n   , duration.inDays(b1.dateProduced,b2.dateProduced).days as numDays\n   , (CASE \n\t\tWHEN b1.location<>b2.location THEN 3\n\t\tWHEN elementId(st1)=elementId(st2) THEN 1\n\t\tELSE 2\n\t\tEND) as targetNumDays\nWITH st1, ps1, st2, ps2, b1, b2, lotNumber, numDays, targetNumDays, numDays-targetNumDays as daysOverTarget\nWITH lotNumber, st1, ps1\n\t, sum(numDays) as sumLotDays\n\t, sum(targetNumDays) as sumLotTarget\n\t, sum(daysOverTarget) as sumLotOverTarget\nWITH st1, ps1\n//\t, round(avg(sumLotDays),1) as days_avg\n//\t, round(avg(sumLotTarget),1) as target_avg\n\t, round(avg(sumLotOverTarget),1) as overTarget_avg\n\t, round(percentileCont(sumLotDays,0.75),1) as days_75pct\n//\t, round(percentileCont(sumLotOverTarget,0.75),1) as overTarget_75pct\n//RETURN (CASE \n//\t\tWHEN ps1.processStage=ps2.processStage THEN \"(\"+ps1.materialType+\") \"+ps1.processStage+\": \"+ps1.processStep+\" -> \"+ps2.processStep\n//\t\tELSE \"(\"+ps1.materialType+\") \"+ps1.processStage+\" -> \"+ps2.processStage\n//\t\tEND) as processing\n//\t, target_avg, days_avg, days_75pct, overTarget_avg, overTarget_75pct\n//ORDER BY overTarget_75pct DESC\nRETURN ps1.processStep as processStep, overTarget_avg, days_75pct\nORDER BY ps1.stageNum, ps1.stepNum\n;\n\n\n\n",
+          "width": 12,
+          "height": 6,
+          "x": 11,
+          "y": 11,
+          "type": "bar",
+          "selection": {
+            "index": "processStep",
+            "value": "overTarget_avg",
+            "key": "(none)"
+          },
+          "settings": {
+            "barValues": true,
+            "labelRotation": 30,
+            "marginBottom": 60,
+            "positionLabel": "top",
+            "colors": "set1"
+          },
+          "schema": []
+        }
+      ]
+    },
+    {
+      "title": "Batch Traceability",
+      "reports": [
+        {
+          "id": "bd39efc8-9f94-4443-9944-8a7ebfa068bf",
+          "title": "Distribution by Lot Numbers in Market",
+          "query": "MATCH (n:Batch)-[bf:BATCH_FLOW]->(d:Distributor)\nWHERE $neodash_start_date <= n.dateProduced <= $neodash_end_date\n  AND n.globalBrand=$neodash_globalbrand\n  AND n.form = $neodash_form\n  AND n.strength = $neodash_strength\n  AND n.generation = $neodash_generation\n  AND d.market = $neodash_market\nWITH n.lotNumber as lotNumber\n//  , min(n.dateProduced) as startDate\n//  , max(n.dateProduced) as endDate\n  , collect(DISTINCT d.location) as distributors\nMATCH (b:Batch)\nWHERE b.globalBrand=$neodash_globalbrand\n  AND b.form = $neodash_form\n  AND b.strength = $neodash_strength\n  AND b.generation = $neodash_generation\n  AND b.lotNumber = lotNumber\nWITH lotNumber, min(b.dateProduced) as startDate\n   , max(b.dateProduced) as endDate\n   , distributors\nRETURN lotNumber, startDate, endDate\n     , duration.inDays(startDate,endDate).days as prodTime\n     , size(distributors) as num, distributors\nORDER BY startDate, lotNumber\n\n\n",
+          "width": 19,
+          "height": 4,
+          "x": 4,
+          "y": 0,
+          "type": "table",
+          "selection": {},
+          "settings": {
+            "actionsRules": [
+              {
+                "condition": "rowCheck",
+                "field": "lotNumber",
+                "value": "lotNumber",
+                "customization": "set variable",
+                "customizationValue": "lotNumbers"
+              }
+            ],
+            "columnWidths": "[15,10,10,5,5,60]",
+            "columnWidthsType": "Relative (%)",
+            "compact": false
+          }
+        },
+        {
+          "id": "a90d2f7d-bf5d-43ea-bc2e-d30bea7b2a7d",
+          "title": "Batch Equipment & Operator",
+          "query": "MATCH (run:ProductionRun)-[:PRODUCED_BATCH]->(batch:Batch)-[:IS_BATCH_FOR]->(prod:Product)<-[:PRODUCES]-(step:ProcessStep)\n  , (run)-[:USED_EQUIP]->(eq:Equipment)\n  , (emp:Employee)-[:PERFORMED_RUN]->(run)\nWHERE batch.globalBrand=$neodash_globalbrand\n  AND batch.form = $neodash_form\n  AND batch.strength = $neodash_strength\n  AND batch.generation = $neodash_generation\n  AND batch.lotNumber IN $neodash_lotNumbers\nRETURN batch.lotNumber as lotNumber, step.materialType + \" : \"+ step.processStage + \"->\" +step.processStep as ProcessStep\n//    , prod.productSKU as SKU\n    , batch.dateProduced as Produced, run.runTimeHMS as RunTime\n    , emp.lastName+\", \"+emp.firstName as employeeName\n    , eq.manufacturer+\"; \"+eq.nomenclature+\"; \"+eq.model as equipment\nORDER BY lotNumber, batch.dateProduced, step.stageNum, step.stepNum//, SKU\n\n",
+          "width": 24,
+          "height": 6,
+          "x": 0,
+          "y": 23,
+          "type": "table",
+          "selection": {},
+          "settings": {
+            "columnWidths": "[15,30,10,10,10,25]",
+            "allowDownload": true,
+            "compact": true
+          }
+        },
+        {
+          "id": "51a44dce-460a-4ea4-9469-68828f0c6df6",
+          "title": "Batch Genealogy",
+          "query": "MATCH p=(rec:Recipe WHERE rec.globalBrand=$neodash_globalbrand\n\t\t\t\t  AND rec.form = $neodash_form\n\t\t\t\t  AND rec.strength = $neodash_strength\n\t\t\t\t  AND rec.generation = $neodash_generation\n\t\t\t\t  AND rec.market = $neodash_market)\n\t\t-[bf1:BATCH_FLOW WHERE bf1.globalBrand=$neodash_globalbrand\n\t\t\t\t\t\t  AND bf1.form = $neodash_form\n\t\t\t\t\t\t  AND bf1.strength = $neodash_strength\n\t\t\t\t\t\t  AND bf1.generation = $neodash_generation\n\t\t\t\t\t\t  AND bf1.lotNumber IN $neodash_lotNumbers\n\t\t\t\t\t\t  AND bf1.market = $neodash_market\n\t\t\t\t ]->()\n\t((batch1:Batch WHERE batch1.globalBrand=$neodash_globalbrand\n\t\t\t\t AND batch1.form = $neodash_form\n\t\t\t\t AND batch1.strength = $neodash_strength\n\t\t\t\t AND batch1.generation = $neodash_generation\n\t\t\t\t AND batch1.lotNumber IN $neodash_lotNumbers)\n\t-[bf2:BATCH_FLOW WHERE bf2.globalBrand=$neodash_globalbrand\n\t\t\t\t  AND bf2.form = $neodash_form\n\t\t\t\t  AND bf2.strength = $neodash_strength\n\t\t\t\t  AND bf2.generation = $neodash_generation\n\t\t\t\t  AND bf2.lotNumber IN $neodash_lotNumbers\n\t\t\t\t  AND bf2.market = $neodash_market\n\t]->(batch2:Batch WHERE batch2.globalBrand=$neodash_globalbrand\n\t\t\t\t AND batch2.form = $neodash_form\n\t\t\t\t AND batch2.strength = $neodash_strength\n\t\t\t\t AND batch2.generation = $neodash_generation\n\t\t\t\t AND batch2.lotNumber IN $neodash_lotNumbers)\n\t)+()-[:BATCH_FLOW]->(:Distributor)\nWITH p, nodes(p) as nodeList, reduce(idList=[],x in nodes(p)|idList+elementID(x)) as elementIDList\nOPTIONAL MATCH p2=(b2:Batch WHERE elementID(b2) IN elementIDList)<-[:PRODUCED_BATCH]-(run:ProductionRun)\n      , p3=(run)-[:USED_EQUIP]->(:Equipment)\n      , p4=(run)<-[:PERFORMED_RUN]-(:Employee)\nRETURN p, p2, p3, p4\n;\n\n",
+          "width": 23,
+          "height": 6,
+          "x": 0,
+          "y": 16,
+          "type": "graph",
+          "selection": {
+            "Recipe": "strength",
+            "Batch": "lotNumber",
+            "Distributor": "location",
+            "ProductionRun": "runTimeHMS",
+            "Equipment": "nomenclature",
+            "Employee": "lastName"
+          },
+          "settings": {
+            "layout": "tree-left-right",
+            "nodeColorScheme": "paired"
+          },
+          "schema": [
+            [
+              "Recipe",
+              "molecularForm",
+              "generation",
+              "market",
+              "form",
+              "strength",
+              "stageList",
+              "materialList",
+              "globalBrand",
+              "stepList",
+              "productList"
+            ],
+            [
+              "Batch",
+              "equipID",
+              "generation",
+              "package",
+              "strength",
+              "materialType",
+              "cycleStart",
+              "lotNumber",
+              "dateProduced",
+              "productSKU",
+              "form",
+              "cycleFinish",
+              "globalBrand",
+              "location",
+              "sourceDate"
+            ],
+            [
+              "Distributor",
+              "market",
+              "location",
+              "iso3Code"
+            ],
+            [
+              "ProductionRun",
+              "equipUsed",
+              "overlappedUpdated",
+              "equipID",
+              "runDuration",
+              "finishTime",
+              "productSKU",
+              "runTimeHMS",
+              "location",
+              "startTime",
+              "lotNumber"
+            ],
+            [
+              "Equipment",
+              "equipID",
+              "nomenclature",
+              "serialNum",
+              "stage",
+              "step",
+              "model",
+              "location",
+              "manufacturer"
+            ],
+            [
+              "Employee",
+              "firstName",
+              "lastName",
+              "gender",
+              "employeeID",
+              "location",
+              "email"
+            ]
+          ]
+        },
+        {
+          "id": "550f26ed-9922-4977-a393-462d679193a5",
+          "title": "Batch Overlapping Equipment & Operators",
+          "query": "WITH size($neodash_lotNumbers) as numLots\nWHERE numLots > 1\nMATCH (b:Batch)<-[:PRODUCED_BATCH]-(run:ProductionRun)-[:USED_EQUIP]->(eq:Equipment)\n\t, (run)<-[:PERFORMED_RUN]-(emp:Employee)\nWHERE  b.globalBrand = $neodash_globalbrand\n  AND b.form = $neodash_form\n  AND b.strength = $neodash_strength\n  AND b.lotNumber IN $neodash_lotNumbers\n  AND b.generation = $neodash_generation\nWITH b.lotNumber as lotNumber\n   , apoc.coll.dropDuplicateNeighbors(apoc.coll.sort(collect(eq.equipID))) as equipList\n   , apoc.coll.dropDuplicateNeighbors(apoc.coll.sort(collect(emp.employeeID))) as empList\n//RETURN lotNumber, equipList, empList\nWITH collect(lotNumber) as lotNumList\n   , apoc.coll.flatten(collect(equipList)) as allEquipList\n   , apoc.coll.flatten(collect(empList)) as allEmpList\nWITH lotNumList, allEmpList\n   , apoc.coll.frequencies(allEquipList) as equipFreqs\n   , apoc.coll.frequencies(allEmpList) as empFreqs\n   , size(lotNumList) as numItems\nWITH numItems, lotNumList, empFreqs\n   , reduce(equip=[],x in equipFreqs|equip+(CASE WHEN x.count=numItems THEN [x.item] ELSE [] END)) as overlapEquipList\n   , reduce(emp=[],x in empFreqs|emp+(CASE WHEN x.count=numItems THEN [x.item] ELSE [] END)) as overlapEmpList\nWITH numItems, lotNumList, overlapEquipList, overlapEmpList\nCALL (numItems, lotNumList, overlapEquipList, overlapEmpList) {\n\tMATCH (emp:Employee)-[:PERFORMED_RUN]->(run:ProductionRun)-[:PRODUCED_BATCH]->(b:Batch)\n\t\t\t-[:IS_BATCH_FOR]->(prod:Product)<-[:PRODUCES]-(step:ProcessStep)\n\tWHERE emp.employeeID IN overlapEmpList\n\t  AND b.globalBrand = $neodash_globalbrand\n\t  AND b.form = $neodash_form\n\t  AND b.strength = $neodash_strength\n\t  AND b.lotNumber IN lotNumList\n\tRETURN DISTINCT \"Employee\" as resourceType\n\t     , emp.employeeID as resourceID\n\t     , emp.lastName+\", \"+emp.firstName as resourceName\n\t     , prod.productSKU as productSKU\n\t     , step.materialType as materialType\n\t     , step.processStage as processStage\n\t     , step.processStep as processStep\n\t     , step.stageNum as stageNum\n\t     , step.stepNum as stepNum\n\tUNION ALL\n\tWITH numItems, lotNumList, overlapEquipList, overlapEmpList\n\tMATCH (eq:Equipment)<-[:USED_EQUIP]-(run:ProductionRun)-[:PRODUCED_BATCH]->(b:Batch)\n\t\t\t-[:IS_BATCH_FOR]->(prod:Product)<-[:PRODUCES]-(step:ProcessStep)\n\tWHERE eq.equipID IN overlapEquipList\n\t  AND b.globalBrand = $neodash_globalbrand\n\t  AND b.form = $neodash_form\n\t  AND b.strength = $neodash_strength\n\t  AND b.lotNumber IN lotNumList\n\tRETURN DISTINCT \"Equipment\" as resourceType\n\t     , eq.equipID as resourceID\n\t     , eq.manufacturer+\"; \"+eq.nomenclature+\"; \"+eq.model as resourceName\n\t     , prod.productSKU as productSKU\n\t     , step.materialType as materialType\n\t     , step.processStage as processStage\n\t     , step.processStep as processStep\n\t     , step.stageNum as stageNum\n\t     , step.stepNum as stepNum\n}\nRETURN resourceType, resourceID, resourceName, productSKU, materialType as type, processStage, processStep\nORDER BY stageNum, stepNum",
+          "width": 23,
+          "height": 4,
+          "x": 0,
+          "y": 29,
+          "type": "table",
+          "selection": {},
+          "settings": {
+            "compact": true,
+            "columnWidths": "[7,8,25,20,5,20,15]",
+            "noDataMessage": "There are no overlapping equipment or operators in common for these lot numbers."
+          }
+        },
+        {
+          "id": "b9b974e2-e22d-4826-bfa3-9356caf156eb",
+          "title": "Dist Dates",
+          "query": "\n\n\n",
+          "width": 4,
+          "height": 2,
+          "x": 0,
+          "y": 0,
+          "type": "forms",
+          "selection": {},
+          "settings": {
+            "formFields": [
+              {
+                "type": "Date Picker",
+                "settings": {
+                  "type": "Date Picker",
+                  "entityType": "start_date",
+                  "parameterName": "neodash_start_date"
+                },
+                "query": "RETURN true;"
+              },
+              {
+                "type": "Date Picker",
+                "settings": {
+                  "type": "Date Picker",
+                  "entityType": "end_date",
+                  "parameterName": "neodash_end_date"
+                },
+                "query": "RETURN true;"
+              }
+            ],
+            "hasSubmitMessage": false,
+            "hasResetButton": false,
+            "clearParametersAfterSubmit": false,
+            "hasSubmitButton": false
+          },
+          "schema": []
+        },
+        {
+          "id": "1848dd28-c3fb-4def-9da9-1b0c3f9dd3db",
+          "title": "",
+          "query": "RETURN $neodash_globalbrand, $neodash_market, $neodash_form, $neodash_strength, $neodash_generation, $neodash_lotNumbers\n\n\n",
+          "width": 23,
+          "height": 4,
+          "x": 0,
+          "y": 37,
+          "type": "table",
+          "selection": {},
+          "settings": {
+            "columnWidths": "[15,10,10,10,10,45]"
+          },
+          "schema": []
+        },
+        {
+          "id": "b49b7c42-8823-4b1b-bd69-85ad970fc8cd",
+          "title": "LLM Summary",
+          "query": "\nhttp://34.28.183.41:5000/dashboard?neodash_globalbrand=$neodash_globalbrand&neodash_market=$neodash_market&neodash_form=$neodash_form&neodash_strength=$neodash_strength&neodash_generation=$neodash_generation&neodash_lotNumbers=$neodash_lotNumbers\n\n",
+          "width": 23,
+          "height": 12,
+          "x": 0,
+          "y": 4,
+          "type": "iframe",
+          "selection": {},
+          "settings": {},
+          "schema": []
+        }
+      ]
+    },
+    {
+      "title": "Equipment Utilization",
+      "reports": [
+        {
+          "id": "b7d34b51-4342-43b9-a39a-2011615fb038",
+          "title": "Equipment Utilization",
+          "query": "WITH $neodash_globalbrand as myBrand\nMATCH (eq:Equipment)<-[:USED_EQUIP]-(run:ProductionRun)-[:PRODUCED_BATCH]->(batch:Batch)-[bf:BATCH_FLOW]-()\nWHERE batch.globalBrand=myBrand\n  AND batch.form = $neodash_form\n  AND batch.strength = $neodash_strength\n  AND batch.generation = $neodash_generation\n  AND batch.lotNumber IN $neodash_lotNumbers\n  AND bf.market = $neodash_market\nWITH DISTINCT eq\nMATCH p=(eq)-[:FIRST_RUN_EQUIP]->(r1:ProductionRun)-[next:NEXT_RUN_EQUIP]->{1,}(r2:ProductionRun)\nWHERE NOT EXISTS {MATCH (r2)-[:NEXT_RUN_EQUIP]->()}\nWITH eq, length(p)-1 as numTimesUsed, count(p) as numPaths\n   , reduce(totalRun=duration({seconds:0}),x in nodes(p)|totalRun+coalesce(x.runDuration,duration({seconds:0}))) as totalRunTime\n   , reduce(totalIdle=duration({seconds:0}),x in relationships(p)|totalIdle+coalesce(x.idleDuration,duration({seconds:0}))) as totalIdleTime\nWITH eq, numTimesUsed\n  , round((((totalRunTime.months*30.0)+totalRunTime.days)*24.0)+totalRunTime.seconds/3600.0,1) as Util_hrs\n  , round((((totalIdleTime.months*30.0)+totalIdleTime.days)*24.0)+totalIdleTime.seconds/3600.0,1) as Idle_hrs\nRETURN DISTINCT eq.equipID as EquipID, eq.location as Location, eq.manufacturer as Manufacturer\n  , eq.nomenclature as Nomenclature, eq.model as Model_Number, eq.serialNum as Serial_Number\n  , numTimesUsed as Used_cnt, Util_hrs, Idle_hrs, round(Util_hrs*100.0/(Util_hrs+Idle_hrs),1) as Util_pct\nORDER BY Idle_hrs DESC, numTimesUsed DESC\n",
+          "width": 24,
+          "height": 6,
+          "x": 0,
+          "y": 23,
+          "type": "table",
+          "selection": {},
+          "settings": {
+            "columnWidths": "[10,15,15,10,10,20,5,5,5,5]",
+            "actionsRules": [
+              {
+                "condition": "Click",
+                "field": "Location",
+                "value": "Location",
+                "customization": "set variable",
+                "customizationValue": "equiplocation"
+              }
+            ]
+          }
+        },
+        {
+          "id": "f8d75fad-58db-4a03-a83b-2fd060c3faff",
+          "title": "Variables",
+          "query": "RETURN localdatetime(toString($neodash_start_date)+\"T00:00:01\") as startDate\n    , localdatetime(toString($neodash_end_date)+\"T23:59:59\") as endDate\n    , $neodash_equiplocation as equipLocation\n    , $neodash_equipMT as equipMaterialType\n\n",
+          "width": 22,
+          "height": 4,
+          "x": 0,
+          "y": 29,
+          "type": "table",
+          "selection": {},
+          "settings": {}
+        },
+        {
+          "id": "5c1500cc-3048-4835-b987-61ba4ce306d5",
+          "title": "Equipment Utilization @ Location",
+          "query": "WITH localdatetime(toString($neodash_eq_startdate)+\"T00:01\") as startTime\n   , localdatetime(toString($neodash_eq_enddate)+\"T23:59\") as endTime\nWITH startTime, endTime, duration.between(startTime,endTime) as reportDuration\nCALL (startTime,endTime,reportDuration) {\nMATCH (eq:Equipment)<-[:EQUIP_SETUP]-(prep:PreRunSetup)-[:PREP_FOR_RUN]->(run:ProductionRun)\n\t\t-[:POSTRUN]->(post:PostRunStage)\nWHERE eq.location=$neodash_equipment_location\n  AND startTime <= prep.setupStartTime <= endTime\n  AND post.postRunFinishTime <= endTime\nWITH startTime, endTime, reportDuration, eq\n   , duration.between(prep.setupStartTime,post.postRunFinishTime) as equipDuration\nWITH startTime, endTime, reportDuration, eq, sum(equipDuration) as eqDuration\nWITH eq, eqDuration, eqDuration.hours+1 as equipHrs, reportDuration\n\t, duration.inDays(startTime,endTime).days as numDays\nWITH eq, eqDuration, equipHrs, reportDuration, numDays, numDays/7 as numWeeks\nWITH eq, eqDuration, equipHrs, reportDuration, numDays, numWeeks\n\t, ((numWeeks*5)+(numWeeks%7)) as weekDays\nWITH eq, eqDuration, equipHrs, reportDuration, numDays, numWeeks, weekDays\n\t, weekDays*toInteger($neodash_hrsperday) as reportHours\n\t, COUNT {MATCH (same:Equipment WHERE same.manufacturer=eq.manufacturer\n\t\t\t\t\tAND same.model=eq.model AND same.location=eq.location)} as num\nRETURN eq.equipID as equipId, num, eq.manufacturer as manufacturer, eq.model as model\n\t, eq.nomenclature as nomenclature, eq.serialNum as serialNumber\n\t, equipHrs as hours, round((equipHrs*100.0/reportHours),1) as utilPct\nUNION ALL\n\nMATCH (eq:Equipment)\nWHERE eq.location=$neodash_equipment_location\n  AND NOT EXISTS {MATCH (eq)<-[:EQUIP_SETUP]-(prep:PreRunSetup)-[:PREP_FOR_RUN]->(run:ProductionRun)\n\t\t-[:POSTRUN]->(post:PostRunStage) \n\t\t\t\tWHERE (startTime <= prep.setupStartTime <= endTime\n\t\t\t\t   OR startTime <= run.startTime <= endTime\n\t\t\t\t   OR startTime <= post.postRunFinishTime <= endTime)\n\t\t\t\t  AND eq.location=$neodash_equipment_location\n\t}\nWITH eq, COUNT {MATCH (same:Equipment WHERE same.manufacturer=eq.manufacturer\n\t\t\t\t\tAND same.model=eq.model AND same.location=eq.location)} as num\nRETURN eq.equipID as equipId, num, eq.manufacturer as manufacturer, eq.model as model\n\t, eq.nomenclature as nomenclature, eq.serialNum as serialNumber\n\t, 0 as hours, 0.0 as utilPct\n}\nWITH equipId, num, manufacturer, model, nomenclature, serialNumber, hours, utilPct\nWHERE hours > 0\nRETURN equipId, num, manufacturer, model, nomenclature, serialNumber, hours, utilPct\nORDER BY manufacturer, model, nomenclature, serialNumber",
+          "width": 18,
+          "height": 8,
+          "x": 5,
+          "y": 0,
+          "type": "table",
+          "selection": {},
+          "settings": {
+            "compact": true,
+            "actionsRules": [
+              {
+                "condition": "rowCheck",
+                "field": "equipId",
+                "value": "equipId",
+                "customization": "set variable",
+                "customizationValue": "equipIdList"
+              }
+            ],
+            "columnWidths": "[10,5,15,15,15,30,5,5]"
+          }
+        },
+        {
+          "id": "8ddc8d8f-97d8-4203-b1a2-10811f547939",
+          "title": "Equipment Filters",
+          "query": "\n\n\n",
+          "width": 5,
+          "height": 4,
+          "x": 0,
+          "y": 0,
+          "type": "forms",
+          "selection": {},
+          "settings": {
+            "formFields": [
+              {
+                "type": "Node Property",
+                "settings": {
+                  "type": "Node Property",
+                  "searchType": "STARTS WITH",
+                  "entityType": "Equipment",
+                  "propertyType": "location",
+                  "propertyTypeDisplay": "location",
+                  "parameterName": "neodash_equipment_location"
+                },
+                "query": "MATCH (n:`Equipment`) \nWHERE toLower(toString(n.`location`)) STARTS WITH toLower($input) \nRETURN DISTINCT n.`location` as value,  n.`location` as display ORDER BY size(toString(value)) ASC LIMIT 5"
+              },
+              {
+                "type": "Date Picker",
+                "settings": {
+                  "type": "Date Picker",
+                  "entityType": "eq_startDate",
+                  "parameterName": "neodash_eq_startdate"
+                },
+                "query": "RETURN true;"
+              },
+              {
+                "type": "Date Picker",
+                "settings": {
+                  "type": "Date Picker",
+                  "entityType": "eq_endDate",
+                  "parameterName": "neodash_eq_enddate"
+                },
+                "query": "RETURN true;"
+              },
+              {
+                "type": "Free Text",
+                "settings": {
+                  "type": "Free Text",
+                  "entityType": "hrsPerDay",
+                  "parameterName": "neodash_hrsperday"
+                },
+                "query": "RETURN true;"
+              }
+            ],
+            "hasSubmitButton": false,
+            "hasResetButton": false
+          },
+          "schema": []
+        },
+        {
+          "id": "d5327aef-388e-4a84-8b7d-5f9bfaeb24e6",
+          "title": "",
+          "query": "\n\n\n",
+          "width": 23,
+          "height": 4,
+          "x": 0,
+          "y": 19,
+          "type": "table",
+          "selection": {},
+          "settings": {}
+        },
+        {
+          "id": "c3d2824a-6752-4dd1-9eac-6f1da006f76d",
+          "title": "Equipment Cycles",
+          "query": "WITH localdatetime(toString($neodash_eq_startdate)+'T00:01') as startDate\n   , localdatetime(toString($neodash_eq_enddate)+'T23:59') as endDate\nMATCH (b1:Batch)-[next:NEXT_EQUIP_BATCH]->(b2:Batch)\nWHERE b1.equipID IN $neodash_equipIdList\n  AND startDate <= b1.cycleStart <= endDate\n  AND startDate <= b2.cycleFinish <= endDate\nRETURN b1, next, b2\nORDER BY b1.equipID, b1.cycleStart\n\n",
+          "width": 23,
+          "height": 7,
+          "x": 0,
+          "y": 8,
+          "type": "gantt",
+          "selection": {
+            "Batch": "(label)",
+            "NEXT_EQUIP_BATCH": "(label)"
+          },
+          "settings": {
+            "startDateProperty": "cycleStart",
+            "endDateProperty": "cycleFinish",
+            "nameProperty": "equipID",
+            "dependencyTypeProperty": "ES",
+            "viewMode": "Week",
+            "orderProperty": "equipID",
+            "fullscreenEnabled": true
+          },
+          "schema": [
+            [
+              "Batch",
+              "equipID",
+              "generation",
+              "package",
+              "strength",
+              "materialType",
+              "cycleStart",
+              "lotNumber",
+              "dateProduced",
+              "productSKU",
+              "form",
+              "cycleFinish",
+              "location",
+              "globalBrand"
+            ],
+            [
+              "NEXT_EQUIP_BATCH"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "parameters": {},
+  "extensions": {
+    "active": true,
+    "activeReducers": [],
+    "advanced-charts": {
+      "active": true
+    },
+    "styling": {
+      "active": true
+    },
+    "actions": {
+      "active": true
+    },
+    "forms": {
+      "active": true
+    },
+    "query-translator": {}
+  },
+  "uuid": "f367aa7d-3dbf-44cb-b477-5472ecf91ff5"
+}
