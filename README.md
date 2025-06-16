@@ -3,11 +3,13 @@ This demo models and analyzes pharmaceutical supply chains using Neo4j. It inclu
 
 See https://neo4j.com/developer/demos/supply_chain-demo  for instructions for this Demo
 
-## Download .backup file for importing data 
+## 📦 Download `.backup` File for Importing Data
 
-You can download it from [this link](https://drive.google.com/file/d/1MdlQWlnWxFe_lDCYLu5uCUY-MYj9jUn-/view?usp=sharing).
+You have two options to get the required `.backup` file:
 
-After downloading, place it in the `data/` directory and can be used to import the data to your database. Refer https://neo4j.com/developer/demos/supply_chain-demo/#setup for instructions 
+- **Option 1**: Clone the GitHub repository — the file is located in the `dump/` directory.
+- **Option 2**: [Download it directly from Google Drive](https://drive.google.com/file/d/1MdlQWlnWxFe_lDCYLu5uCUY-MYj9jUn-/view?usp=sharing).
 
+After downloading, place the file in your local `dump/` folder.
 
-
+👉 For instructions on how to import the file into your Neo4j instance, refer to the [setup guide](https://neo4j.com/developer/demos/supply_chain-demo/#setup).
