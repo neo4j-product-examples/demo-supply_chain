@@ -3,7 +3,7 @@ This demo models and analyzes pharmaceutical supply chains using Neo4j. It inclu
 
 See https://neo4j.com/developer/demos/supply_chain-demo  for instructions for this Demo
 
-## 📦 Download `.backup` File for Importing Data
+### 📦 Download `.backup` File for Importing Data
 
 You have two options to get the required `.backup` file:
 
