@@ -17,7 +17,7 @@ Explore the raw supply chain data in Neo4j.
 
 ⸻
 
-### [02_Walkthrough_with_AI_Agent.ipynb](./02_Walkthrough_with_AI_Agent.ipynb(
+### [02_Walkthrough_with_AI_Agent.ipynb](./02_Walkthrough_with_AI_Agent.ipynb)
 
 Use a natural language AI agent to interact with the supply chain graph.
 
