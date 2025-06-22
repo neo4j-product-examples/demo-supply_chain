@@ -1,0 +1,17 @@
+# This file MUST be named agent.yaml
+
+# The name here MUST match the name of your main agent's folder
+name: supply_chain_agent
+
+description: An agent that answers supply chain questions using a mix of local and remote tools.
+# model: gemini-1.5-pro-latest # Or whichever model works for you
+
+model:
+  type: litellm
+  model: openai/gpt-4.1
+  
+# This is the key section that points to your MCPServer
+toolset:
+  type: http
+  connection_params:
+    url: https://supply-chain-toolset-373589861902.us-central1.run.app/tools

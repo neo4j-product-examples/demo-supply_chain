@@ -1,0 +1,19 @@
+# Core ADK and Neo4j dependencies
+google-adk
+neo4j
+python-dotenv
+
+# Optional: For using other models like OpenAI, Agents
+litellm
+openai
+pydantic
+markdown
+reportlab
+langchain
+langchain-openai
+langchain-neo4j
+langgraph
+tqdm
+pypdf
+pandas
+uv

@@ -1,0 +1,4 @@
+fastapi
+uvicorn
+neo4j
+pydantic
