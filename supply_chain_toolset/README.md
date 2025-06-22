@@ -1,4 +1,5 @@
-# Supply Chain AI Toolset Service
+# Supply Chain Toolset on Cloud Run
+
 
 This directory contains a containerized, deployable toolset service designed to be used by AI agents. It acts as a specialized bridge between a generative AI agent and a complex Neo4j supply chain graph database.
 
@@ -10,7 +11,7 @@ The service is built using FastAPI and is designed to be deployed as a scalable,
 
 This follows the **Multi-Client Platform (MCP)** pattern, where a central service exposes its capabilities via a discovery endpoint (`/tools`), allowing multiple AI agents or clients to connect and leverage its functions.
 
-## Available Tools
+### Available Tools
 
 The service exposes the following endpoints that an agent can call:
 
@@ -18,7 +19,7 @@ The service exposes the following endpoints that an agent can call:
 *   **`top_suppliers_by_product_count`**: Returns a ranked list of the most significant suppliers based on the number of distinct products they supply.
 *   **`top_suppliers_for_product`**: For a specific product, identifies the key suppliers involved in its supply chain.
 
-## Deployment to Google Cloud Run
+### Deployment to Google Cloud Run
 
 This service is architected for easy deployment as a container on Google Cloud Run.
 
