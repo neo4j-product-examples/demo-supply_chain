@@ -4,7 +4,7 @@ This folder provides a step-by-step guide to understanding and interacting wth P
 
 ⸻
 
-### 01_Understanding_Supply_Chain.ipynb
+### [01_Understanding_Supply_Chain.ipynb](./01_Understanding_Supply_Chain.ipynb)
 
 Explore the raw supply chain data in Neo4j.
 
