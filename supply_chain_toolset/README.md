@@ -1,9 +1,9 @@
-# Supply Chain Toolset on Cloud Run
+## Supply Chain Toolset on Cloud Run
 
 
 This directory contains a containerized, deployable toolset service designed to be used by AI agents. It acts as a specialized bridge between a generative AI agent and a complex Neo4j supply chain graph database.
 
-## Overview
+### Overview
 
 This service is a remote "toolkit" for an AI. Instead of teaching the AI the complexities of the Cypher query language and the database schema, we provide it with a simple, high-level set of tools. The AI can discover these tools and call them to answer sophisticated questions about the supply chain.
 
@@ -18,6 +18,7 @@ The service exposes the following endpoints that an agent can call:
 *   **`trace_supply_path`**: Traces the full supply chain path for a given product, from the raw material supplier to the final distributor.
 *   **`top_suppliers_by_product_count`**: Returns a ranked list of the most significant suppliers based on the number of distinct products they supply.
 *   **`top_suppliers_for_product`**: For a specific product, identifies the key suppliers involved in its supply chain.
+... more (check out https://supply-chain-toolset-373589861902.us-central1.run.app/tools for more info)
 
 ### Deployment to Google Cloud Run
 
