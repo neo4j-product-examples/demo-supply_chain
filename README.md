@@ -9,6 +9,7 @@ This demo models and analyzes pharmaceutical supply chains using Neo4j. It inclu
 - Identifying risks like bottlenecks and circular logistics
 
 👉 See https://neo4j.com/developer/demos/supply_chain-demo  for instructions for this Demo
+
 👉 Explore the demo in-depth: Go to [/walkthrough](./walkthrough/) for a guided explanation of use cases, queries, and how the AI Agent supports exploration.
 
 ### ⬇️ Download `.backup` File for Importing Data ⬇️
