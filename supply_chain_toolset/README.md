@@ -1,7 +1,13 @@
-## Supply Chain Toolset on Cloud Run
+## Supply Chain Toolset on Cloud Run 
 
+This directory contains a containerized, deployable toolset service designed to be used by AI agents. It acts as a specialized bridge between a *generative AI agent* and a *Neo4j pharmaceutical supply chain graph*.
 
-This directory contains a containerized, deployable toolset service designed to be used by AI agents. It acts as a specialized bridge between a generative AI agent and a complex Neo4j supply chain graph database.
+This service exposes a set of HTTP-accessible tools that:
+- Encapsulate complex Cypher queries
+- Return structured JSON responses
+- Are optimized for remote execution by AI agents (via MCPToolset)
+
+💡 Tip:  You can deploy this toolset to Cloud Run (or any container platform) and build your own custom AI agent workflows on top of it.
 
 ### Overview
 
