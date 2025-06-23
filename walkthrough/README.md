@@ -1,6 +1,6 @@
 ## Solution Walkthrough
 
-This folder provides a step-by-step guide to understanding and interacting wth Pharmaceutical Supply Chain dataset.
+This folder provides a step-by-step guide to understanding and interacting with a Pharmaceutical Supply Chain dataset.
 
 ⸻
 
@@ -23,13 +23,13 @@ Use a natural language AI agent to interact with the supply chain graph.
 
 - Leverages the MCPService toolset to expose remote tools to agents
 - Demonstrates how to create multiple specialized agents
-- Ask complex questions in natural language — the root agent handles tool routing automatically
+- Ask complex questions in natural language — the *root agent handles tool routing automatically*
 
 ⸻
 
 ### 03_Graph Analytics.ipynb
 
-... coming soon ... 
+Coming soon ... 
 
 ⸻
 
